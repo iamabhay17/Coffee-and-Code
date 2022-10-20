@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+*
+{
+  font-family: 'Montserrat', sans-serif;
+  
+}
+body{
+  background-color: #e0f2fe;}
+
+  .course-container
+  {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .course-container-items
+  {
+    flex: 0 0 auto;
+  }
+
+  .platform-container
+  {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .platform-container-items
+  {
+    flex: 0 0 auto;
+  }
+
