@@ -49,7 +49,10 @@ $ npm start
 ```
 
 ## Project Screenshots 🕊
-
+![banner](./screenshots/Screenshot (54).png)
+![banner](./screenshots/Screenshot (55).png)
+![banner](./screenshots/Screenshot (56).png)
+![banner](./screenshots/Screenshot (57).png)
 
 
 
