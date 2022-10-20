@@ -49,9 +49,20 @@ $ npm start
 ```
 
 ## Project Screenshots 🕊
+### Homepage
+
 <img align="center" height="300" src="./screenshots/Screenshot (54).png"/>
+
+### Job Portal
+
 <img align="center" height="300" src="./screenshots/Screenshot (55).png"/>
+
+### Courses Portal
+
 <img align="center" height="300" src="./screenshots/Screenshot (56).png"/>
+
+### structured roadmap
+
 <img align="center" height="300" src="./screenshots/Screenshot (57).png"/>
 
 
