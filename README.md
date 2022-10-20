@@ -49,7 +49,10 @@ $ npm start
 ```
 
 ## Project Screenshots 🕊
-<img align="center" height="40" src="./screenshots/Screenshot (54).png"/>
+<img align="center" height="300" src="./screenshots/Screenshot (54).png"/>
+<img align="center" height="300" src="./screenshots/Screenshot (55).png"/>
+<img align="center" height="300" src="./screenshots/Screenshot (56).png"/>
+<img align="center" height="300" src="./screenshots/Screenshot (57).png"/>
 
 
 
