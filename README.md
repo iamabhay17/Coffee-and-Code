@@ -66,7 +66,8 @@ $ npm start
 <img align="center" height="300" src="./screenshots/Screenshot (57).png"/>
 
 
-
+### Contributors 
+[Shobhit Nautiyal](https://github.com/shobhit1812) &nbsp;&middot;&nbsp;
 
 
 
