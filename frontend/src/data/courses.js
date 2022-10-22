@@ -364,7 +364,7 @@ export const courses = [
         ],
       },
       {
-        week: "2",
+        week: "",
         totalLectures: "30",
         project: {
           name: "Weather App in ReactJS",
@@ -417,23 +417,188 @@ export const courses = [
     course: "Python",
     icon: require("../assets/course/python.png"),
     duration: "1 Month",
-    comingSoon: true,
+    // comingSoon: true,
     weeks: [
       {
         week: "1",
         totalLectures: "30",
         project: {
-          name: "XYZ website",
-          link: "xyz.com",
+          name: "Convert List of Tuple into Dictionary",
+          link: "https://youtu.be/v535xoe7uPc",
         },
         lectures: [
           {
             day: 1,
             topic: "Introduction to Python",
-            link: "xyz.com",
+            link: "https://youtu.be/DWgzHbglNIo",
+          },
+          {
+            day: 2,
+            topic: "Variables built in functions",
+            link: "https://youtu.be/TqPzwenhMj0",
+          },
+          {
+            day: 3,
+            topic: "Operators",
+            link: "https://youtu.be/v5MR5JnKcZI",
+          },
+          {
+            day: 4,
+            topic: "Strings",
+            link: "https://youtu.be/lPZn7zcGXQo",
+          },
+          {
+            day: 5,
+            topic: "Lists",
+            link: "https://youtu.be/Eaz5e6M8tL4",
+          },
+          {
+            day: 6, 
+            topic: "Tuples & Sets",
+            link: "https://youtu.be/Mf7eFtbVxFM",
+          },
+          {
+            day: 7,
+            topic: "Dictionaries",
+            link: "https://youtu.be/2IsF7DEtVjg",
           },
         ],
       },
+      {
+        week: "2",
+        totalLectures: "30",
+        project: {
+          name: "Printing Pattern",
+          link: "https://youtu.be/k8SXsT5TLxQ",
+        },
+        lectures: [
+          {
+            day: 1,
+            topic: "Conditionals",
+            link: "https://youtu.be/PqFKRqpHrjw",
+          },
+          {
+            day: 2,
+            topic: "Loops",
+            link: "https://youtu.be/94UHCEmprCY",
+          },
+          {
+            day: 3,
+            topic: "Functions",
+            link: "https://youtu.be/BVfCWuca9nw",
+          },
+          {
+            day: 4,
+            topic: "Modules",
+            link: "https://youtu.be/1RuMJ53CKds",
+          },
+          {
+            day: 5,
+            topic: "List comprehension",
+            link: "https://youtu.be/AhSvKGTh28Q",
+          },
+          {
+            day: 6, 
+            topic: "Higher order functions",
+            link: "https://youtu.be/IEjDRzookFU",
+          },
+          {
+            day: 7,
+            topic: "Python type errors",
+            link: "https://youtu.be/6SPDvPK38tw",
+          },
+        ],
+      },
+      {
+        week: "3",
+        totalLectures: "30",
+        project: {
+          name: "Project in python using File Handling",
+          link: "https://youtu.be/A1IKrFY5Xiw",
+        },
+        lectures: [
+          {
+            day: 1,
+            topic: "Python date time",
+            link: "https://youtu.be/mHezNgNBnuA",
+          },
+          {
+            day: 2,
+            topic: "Exception handling",
+            link: "https://youtu.be/6SPDvPK38tw",
+          },
+          {
+            day: 3,
+            topic: "Regular expressions",
+            link: "https://youtu.be/g8u0wLvvPSs",
+          },
+          {
+            day: 4,
+            topic: "File handling",
+            link: "https://youtu.be/aequTxAvQq4",
+          },
+          {
+            day: 5,
+            topic: "Python package manager",
+            link: "https://youtu.be/TIt2EOuC-Bo",
+          },
+          {
+            day: 6, 
+            topic: "Classes and objects",
+            link: "https://youtu.be/8O5kX73OkIY",
+          },
+          {
+            day: 7,
+            topic: "Web scraping",
+            link: "https://youtu.be/O6nnVHPjcJU",
+          },
+        ],
+      },
+      {
+        week: "4",
+        totalLectures: "30",
+        project: {
+          name: "AI Desktop Voice Assistant",
+          link: "https://youtu.be/Lp9Ftuq2sVI",
+        },
+        lectures: [
+          {
+            day: 1,
+            topic: "Virtual environment",
+            link: "https://youtu.be/Lah7WGW6exg",
+          },
+          {
+            day: 2,
+            topic: "Statistics",
+            link: "https://youtu.be/mQ-3KwrBIN0",
+          },
+          {
+            day: 3,
+            topic: "Pandas",
+            link: "https://youtu.be/UB3DE5Bgfx4",
+          },
+          {
+            day: 4,
+            topic: "Python web",
+            link: "https://youtu.be/zuxzE7--RYM",
+          },
+          {
+            day: 5,
+            topic: "Python with mongodb",
+            link: "https://youtu.be/rvXhj-FyzcE",
+          },
+          {
+            day: 6, 
+            topic: "API",
+            link: "https://youtu.be/0sOvCWFmrtA",
+          },
+          {
+            day: 7,
+            topic: "Building API",
+            link: "https://youtu.be/Jzv3G5iDLvw",
+          },
+        ],
+      }
     ],
   },
 
