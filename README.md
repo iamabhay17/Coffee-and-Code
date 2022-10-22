@@ -48,6 +48,11 @@ $ npm start
 
 ```
 
+
+### Contributors 
+[Shobhit Nautiyal](https://github.com/shobhit1812) &nbsp;&middot;&nbsp;
+[Anirudh Purohit](https://github.com/anirudhpurohit2001) &nbsp;&middot;&nbsp;
+
 ## Project Screenshots 🕊
 ### Homepage
 
@@ -65,9 +70,6 @@ $ npm start
 
 <img align="center" height="300" src="./screenshots/Screenshot (57).png"/>
 
-
-### Contributors 
-[Shobhit Nautiyal](https://github.com/shobhit1812) &nbsp;&middot;&nbsp;
 
 
 
