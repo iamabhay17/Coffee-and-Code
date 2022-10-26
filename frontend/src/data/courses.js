@@ -453,7 +453,7 @@ export const courses = [
             link: "https://youtu.be/Eaz5e6M8tL4",
           },
           {
-            day: 6, 
+            day: 6,
             topic: "Tuples & Sets",
             link: "https://youtu.be/Mf7eFtbVxFM",
           },
@@ -498,7 +498,7 @@ export const courses = [
             link: "https://youtu.be/AhSvKGTh28Q",
           },
           {
-            day: 6, 
+            day: 6,
             topic: "Higher order functions",
             link: "https://youtu.be/IEjDRzookFU",
           },
@@ -543,7 +543,7 @@ export const courses = [
             link: "https://youtu.be/TIt2EOuC-Bo",
           },
           {
-            day: 6, 
+            day: 6,
             topic: "Classes and objects",
             link: "https://youtu.be/8O5kX73OkIY",
           },
@@ -588,7 +588,7 @@ export const courses = [
             link: "https://youtu.be/rvXhj-FyzcE",
           },
           {
-            day: 6, 
+            day: 6,
             topic: "API",
             link: "https://youtu.be/0sOvCWFmrtA",
           },
@@ -598,7 +598,7 @@ export const courses = [
             link: "https://youtu.be/Jzv3G5iDLvw",
           },
         ],
-      }
+      },
     ],
   },
 
@@ -607,24 +607,179 @@ export const courses = [
     _id: 7,
     course: "MongoDB",
     icon: require("../assets/course/database.png"),
-    duration: "1 Month",
-    comingSoon: true,
+    duration: "26 days",
+    // comingSoon: true,
     weeks: [
       {
         week: "1",
         totalLectures: "30",
         project: {
-          name: "XYZ website",
-          link: "xyz.com",
+          name: "No Projects",
+          link: "",
         },
         lectures: [
           {
             day: 1,
-            topic: "Introduction to MongoDB",
-            link: "xyz.com",
+            topic: "What is MongoDB",
+            link: "https://youtu.be/ExcRbA7fy_A",
+          },
+          {
+            day: 2,
+            topic: "Installing MongoDB",
+            link: "https://youtu.be/gDOKSgqM-bQ",
+          },
+          {
+            day: 3,
+            topic: "Collections & Documents",
+            link: "https://youtu.be/ojKJqNQYaOI",
+          },
+          {
+            day: 4,
+            topic: "Using MongoDB Compass",
+            link: "https://youtu.be/bJSj1a84I20",
+          },
+          {
+            day: 5,
+            topic: "Using the MongoDB Shell",
+            link: "https://youtu.be/jR49YGYXdxc",
+          },
+          {
+            day: 6,
+            topic: "Adding New Documents",
+            link: "https://youtu.be/g3Z0Av9yRSs",
+          },
+          {
+            day: 7,
+            topic: "Finding Documents",
+            link: "https://youtu.be/FLl9m4XwbqQ",
+          },
+        ],
+      },
+      {
+        week: "2",
+        totalLectures: "30",
+        project: {
+          name: "No Projects",
+          link: "",
+        },
+        lectures: [
+          {
+            day: 1,
+            topic: "Sorting & Limiting Data",
+            link: "https://youtu.be/vI4GdN5wBTQ",
+          },
+          {
+            day: 2,
+            topic: "Nested Documents",
+            link: "https://youtu.be/hjsCd3sy0Ns",
+          },
+          {
+            day: 3,
+            topic: "Operators & Complex Queries",
+            link: "https://youtu.be/NRKGZdJTf48",
+          },
+          {
+            day: 4,
+            topic: "Using $in & $nin",
+            link: "https://youtu.be/qrDh5XQ0nZ4",
+          },
+          {
+            day: 5,
+            topic: "Querying Arrays",
+            link: "https://youtu.be/zFzR2mCHhTk",
+          },
+          {
+            day: 6,
+            topic: "Deleting Documents",
+            link: "https://youtu.be/hq7gGo-1CgM",
+          },
+          {
+            day: 7,
+            topic: "Updating Documents",
+            link: "https://youtu.be/s8YG0GvQInY",
+          },
+        ],
+      },
+      {
+        week: "3",
+        totalLectures: "30",
+        project: {
+          name: "No Projects",
+          link: "",
+        },
+        lectures: [
+          {
+            day: 1,
+            topic: "MongoDB Drivers",
+            link: "https://youtu.be/a3H9rIj07sk",
+          },
+          {
+            day: 2,
+            topic: "Connecting to MongoDB",
+            link: "https://youtu.be/gGNquGHqpNI",
+          },
+          {
+            day: 3,
+            topic: "Cursors & Fetching Data",
+            link: "https://youtu.be/5a6h41PVsD0",
+          },
+          {
+            day: 4,
+            topic: "Finding Single Documents",
+            link: "https://youtu.be/mNWH57-M2bE",
+          },
+          {
+            day: 5,
+            topic: "Using POSTMAN",
+            link: "https://youtu.be/32y_UY1omwM",
+          },
+          {
+            day: 6,
+            topic: "Handling POST Requests",
+            link: "https://youtu.be/bJkRnvIT5jQ",
+          },
+        ],
+      },
+      {
+        week: "4",
+        totalLectures: "30",
+        project: {
+          name: "Build a Chat App With MongoDB & Socket.io",
+          link: "https://youtu.be/8Y6mWhcdSUM",
+        },
+        lectures: [
+          {
+            day: 1,
+            topic: "Handling DELETE Requests",
+            link: "https://youtu.be/DPHn_qs44QM",
+          },
+          {
+            day: 2,
+            topic: "Operators & Complex Queries",
+            link: "https://youtu.be/NRKGZdJTf48",
+          },
+          {
+            day: 3,
+            topic: "PATCH Requests",
+            link: "https://youtu.be/8wxLA_hTuSA",
+          },
+          {
+            day: 4,
+            topic: "Pagination",
+            link: "https://youtu.be/zOI6W0DiYPc",
+          },
+          {
+            day: 5,
+            topic: "Indexes",
+            link: "https://youtu.be/D14wWW9EEx8",
+          },
+          {
+            day: 6,
+            topic: "MongoDB Atlas",
+            link: "https://youtu.be/084rmLU1UgA",
           },
         ],
       },
     ],
   },
-];
+]
