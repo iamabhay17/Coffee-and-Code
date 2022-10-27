@@ -45,7 +45,7 @@ const Home = () => {
             <BsLightningCharge
               style={{ fontSize: "1.2rem", marginRight: "1rem" }}
             />
-            Best Available Roapmap to upskill yourself
+            Best Available Roadmap to upskill yourself
           </li>
           <li className="m-2">
             <BsLightbulb style={{ fontSize: "1.2rem", marginRight: "1rem" }} />
