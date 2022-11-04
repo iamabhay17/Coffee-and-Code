@@ -36,7 +36,7 @@ const Login = () => {
   return (
     <Row className="my-5 ">
       <Col sm={12} md={6}>
-        <Image src={loginImg} alt="alt" fluid className="mb-5" />
+        <Image src={loginImg} alt="alt" fluid className="mb-5 login-hero" />
       </Col>
       <Col
         sm={12}
