@@ -34,9 +34,9 @@ const Login = () => {
   };
 
   return (
-    <Row className="my-5 ">
+    <Row className="my-2 ">
       <Col sm={12} md={6}>
-        <Image src={loginImg} alt="alt" fluid className="mb-5 login-hero" />
+        <Image src={loginImg} alt="alt" fluid className="mb-3" />
       </Col>
       <Col
         sm={12}
