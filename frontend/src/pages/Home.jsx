@@ -9,7 +9,7 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <Row
-      className="mt-5 d-flex align-items-center justify-content-center home"
+      className="mt-2 d-flex align-items-center justify-content-center home"
       style={{ minHeight: "70vh" }}
     >
       <Col sm={12} lg={5}>
