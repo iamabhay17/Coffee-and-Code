@@ -10,7 +10,8 @@
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a herf="https://coffeeandcode-v1.onrender.com/">Live Demo</a>
+  <a herf="">Live Demo</a>
+  [Live Demo](https://coffeeandcode-v1.onrender.com/)
 </p>
 
 
