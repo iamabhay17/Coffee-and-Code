@@ -49,7 +49,7 @@ const Login = () => {
           <Message msg={error} />
         ) : (
           <Form onSubmit={submitHandler}>
-            <h2 className="text-center mb-5">ADMIN ONLY</h2>
+ 
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label
                 style={{
