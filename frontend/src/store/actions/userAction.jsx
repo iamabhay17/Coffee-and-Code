@@ -10,7 +10,7 @@ export const login = (email, password) => async (dispatch) => {
       },
     };
     const { data } = await axios.post(
-      "/api/user/login",
+      "https://coffeeandcode.onrender.com/api/user/login",
       { email, password },
       config
     );
@@ -48,7 +48,7 @@ export const register = (name, email, password) => async (dispatch) => {
         "Content-Type": "application/json",
       },
     };
-    await axios.post("/api/user/create", { email, password, name }, config);
+    await axios.post("https://coffeeandcode.onrender.com/api/user/create", { email, password, name }, config);
 
     dispatch({
       type: "USER_REGISTER_SUCCESS",
