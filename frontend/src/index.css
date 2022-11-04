@@ -40,4 +40,11 @@ body{
       display: none;
     }
   }
-
+ @media screen and (max-width: 990px)
+  {
+    .home
+    {
+      flex-direction: column-reverse;
+      gap: 2rem;
+    }
+  }
