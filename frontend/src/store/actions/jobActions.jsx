@@ -3,7 +3,7 @@ import axios from "axios";
 export const listJobs = () => async (dispatch) => {
   try {
     dispatch({ type: "JOBS_LIST_REQUEST" });
-    const { data } = await axios.get("/api/jobs");
+    const { data } = await axios.get("https://coffeeandcode.onrender.com/api/jobs");
 
     dispatch({ type: "JOBS_LIST_SUCCESS", payload: data });
   } catch (error) {
@@ -32,7 +32,7 @@ export const postingJob =
         },
       };
       await axios.post(
-        "/api/jobs/post",
+        "https://coffeeandcode.onrender.com/api/jobs/post",
         { position, company, salary, batch, location, apply, image },
         config
       );
@@ -59,7 +59,7 @@ export const deleteJob = (id) => async (dispatch, getState) => {
   try {
     dispatch({ type: "JOB_DELETE_REQUEST" });
 
-    await axios.delete(`/api/jobs/${id}`);
+    await axios.delete(`https://coffeeandcode.onrender.com/api/jobs/${id}`);
 
     dispatch({ type: "JOB_DELETE_SUCCESS" });
   } catch (error) {
