@@ -5,21 +5,185 @@ export const courses = [
     course: "CPP",
     icon: require("../assets/course/cpp.png"),
     duration: "1 Month",
-    comingSoon: true,
+    // comingSoon: true,
     weeks: [
       {
         week: "1",
         totalLectures: "30",
         project: {
-          name: "XYZ website",
-          link: "xyz.com",
+          name: "Addition of Two Numbers",
+          link: "https://youtu.be/7y4xMaMInvo",
         },
         lectures: [
           {
             day: 1,
             topic: "Introduction to C++",
-            link: "xyz.com",
+            link: "https://youtu.be/j8nAHeVKL08",
           },
+          {
+            day: 2,
+            topic: "Basic Structure of a C++ program",
+            link: "https://youtu.be/oW2r0r_i5Ps",
+          },
+          {
+            day: 3,
+            topic: "Operators in C++",
+            link: "https://youtu.be/JBgZxnAj4hg",
+          },
+          {
+            day: 4,
+            topic: "Data Types in C++",
+            link: "https://youtu.be/ATYsrD-jlxw",
+          },
+          {
+            day: 5,
+            topic: "Creating Variables in C++",
+            link: "https://youtu.be/S3m_7tRP2JE",
+          },
+          {
+            day: 6,
+            topic: "Header Files in C++",
+            link: "https://youtu.be/hKjnc_-Xxdc",
+          },
+          {
+            day: 7,
+            topic: "Basic I/O in C++",
+            link: "https://youtu.be/J05uoTbGOvQ",
+          },
+        ],
+      },
+
+      {
+        week: "2",
+        totalLectures: "30",
+        project: {
+          name: "Printing Patterns",
+          link: "https://youtu.be/LfgAOZ1kKMw",
+        },
+        lectures: [
+          {
+            day: 1,
+            topic: "If/Else Statements",
+            link: "https://youtu.be/cyB3HNlQyjY",
+          },
+          {
+            day: 2,
+            topic: "Introductions Of Loops",
+            link: "https://youtu.be/IlIn_D1RT7M",
+          },
+          {
+            day: 3,
+            topic: "Break And Continue Statements",
+            link: "https://youtu.be/Stf7KBiA1vs",
+          },
+          {
+            day: 4,
+            topic: "Switch-Case",
+            link: "https://youtu.be/G80-j_xnE_8",
+          },
+          {
+            day: 5,
+            topic: "Functions",
+            link: "https://youtu.be/83KtncYgHYQ",
+          },
+          {
+            day: 6,
+            topic: "Pointers",
+            link: "https://youtu.be/gHxmAgedyDk",
+          },
+          {
+            day: 7,
+            topic: "Recursion",
+            link: "https://youtu.be/oSQbwlepoCU",
+          },
+        ],
+      },
+
+      {
+        week: "3",
+        totalLectures: "30",
+        project: {
+          name: "Transpose Matrix",
+          link: "https://youtu.be/xKZFAkSt2UU",
+        },
+        lectures: [
+          {
+            day: 1,
+            topic: "Introduction To Arrays",
+            link: "https://youtu.be/PyTK_g1l8V8",
+          },
+          {
+            day: 2,
+            topic: "2-D Arrays",
+            link: "https://youtu.be/Xx1tWbb37hY",
+          },
+          {
+            day: 3,
+            topic: "Strings",
+            link: "https://youtu.be/W8hPsBquD6Y",
+          },
+          {
+            day: 4,
+            topic: "Introduction to OOPs",
+            link: "https://youtu.be/YscEcXRmBoY",
+          },
+          {
+            day: 5,
+            topic: "Class and Objects",
+            link: "https://youtu.be/6Q0Cff29YwU",
+          },
+          {
+            day: 6,
+            topic: "Constructors",
+            link: "https://youtu.be/qKQzpoPk4wk",
+          },
+          {
+            day: 7,
+            topic: "Destructor",
+            link: "https://youtu.be/Fk8LrQ1H6a0",
+          },
+        ],
+      },
+
+      {
+        week: "4",
+        totalLectures: "30",
+        project: {
+          name: "Cars Problem OOPs",
+          link: "https://youtu.be/itLM29qesvY",
+        },
+        lectures: [
+          {
+            day: 1,
+            topic: "Abstraction",
+            link: "https://youtu.be/0YxZ3y5HUsY",
+          },
+          {
+            day: 2,
+            topic: "Encapsulation",
+            link: "https://youtu.be/ZhTB24eWJ58",
+          },
+          {
+            day: 3,
+            topic: "Polymorphism",
+            link: "https://youtu.be/B-WWdC-H0zw",
+          },
+          {
+            day: 4,
+            topic: "Inheritance",
+            link: "https://youtu.be/RO1ZYW9NAzg",
+          },
+          {
+            day: 5,
+            topic: "Access Modifiers",
+            link: "https://youtu.be/tL8vnfFFzVQ",
+          },
+          {
+            day: 6,
+            topic: "Types of Inheritance",
+            link: "https://youtu.be/zDLzfljx7Lo",
+          },
+          
         ],
       },
     ],
@@ -87,14 +251,84 @@ export const courses = [
         week: "1",
         totalLectures: "30",
         project: {
-          name: "XYZ website",
-          link: "xyz.com",
+          name: "Responsiveness Challenge",
+          link: "https://youtu.be/2WMRDUS_b4E",
         },
         lectures: [
           {
             day: 1,
             topic: "Introduction to CSS",
-            link: "xyz.com",
+            link: "https://youtu.be/sqJ6xZ9mUwE",
+          },
+
+          {
+            day: 2,
+            topic: "Properties in CSS",
+            link: "https://youtu.be/4nC4VXHlys8",
+          },
+
+          {
+            day: 3,
+            topic: "Box Model",
+            link: "https://youtu.be/C01LeeMhwHc",
+          },
+
+          {
+            day: 4,
+            topic: "Cascading, Specificity and Inheritance",
+            link: "https://youtu.be/wKPlQkOdpFQ",
+          },
+
+          {
+            day: 5,
+            topic: "Styling Forms in CSS",
+            link: "https://youtu.be/6Cpd63_WXdI",
+          },
+
+          {
+            day: 6,
+            topic: "Debugging in CSS",
+            link: "https://youtu.be/l-EkcthUMl4",
+          },
+
+          {
+            day: 7,
+            topic: "Responsiveness in CSS",
+            link: "https://youtu.be/p870o46o1bM",
+          },
+        ],
+      },
+
+      {
+        week: "2",
+        totalLectures: "30",
+        project: {
+          name: "Responsiveness Challenge",
+          link: "https://youtu.be/2WMRDUS_b4E",
+        },
+        lectures: [
+          {
+            day: 1,
+            topic: "Float and Position properties in CSS",
+            link: "https://youtu.be/xpoWxFyGuC8",
+          },
+
+          {
+            day: 2,
+            topic: "Flexbox in CSS",
+            link: "https://youtu.be/zts6uNVnCNs",
+          },
+
+          {
+            day: 3,
+            topic: "CSS Grid",
+            link: "https://youtu.be/xBSlwwitD5U",
+          },
+
+          {
+            day: 4,
+            topic: "Animations in CSS",
+            link: "https://youtu.be/Xdhdgl0Ju4k",
           },
         ],
       },
