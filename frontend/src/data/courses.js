@@ -245,7 +245,7 @@ export const courses = [
     course: "CSS",
     icon: require("../assets/course/css.png"),
     duration: "1 Month",
-    comingSoon: true,
+   // comingSoon: true,
     weeks: [
       {
         week: "1",
