@@ -598,7 +598,7 @@ export const courses = [
         ],
       },
       {
-        week: "",
+        week: "3",
         totalLectures: "30",
         project: {
           name: "Weather App in ReactJS",
