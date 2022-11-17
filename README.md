@@ -13,6 +13,9 @@
   <a href="https://coffeeandcode-v1.onrender.com/">Live Demo</a> 
 </p>
 
+## Login Credentials
+* email : example@gmail.com
+* password : 123456
 
 ## Key Features
 * Job Portal
